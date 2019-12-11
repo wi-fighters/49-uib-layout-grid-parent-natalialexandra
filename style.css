@@ -1,3 +1,8 @@
 img {
     width: 100%;
 }
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+}
